@@ -4,7 +4,7 @@ import google.generativeai as genai
 import numpy as np
 
 # Configure the API key for Google Generative AI
-gemini_api_key = "YOUR_GEMINI_API_KEY"
+gemini_api_key = "AIzaSyCO2idWHyU6f9yy4QAEZWqVHPdZdl4PUMI"
 genai.configure(api_key=gemini_api_key)
 model = genai.GenerativeModel('gemini-pro')
 
